@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link href='https://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet' type='text/css'>
+	<title>Document</title>
+	<style>
+	body {
+		font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+font-weight: 700;
+	}
+	* {
+		box-sizing: border-box;
+	}
+	.wrapper {
+		margin: 0px auto;
+		margin-top: 15%;
+		width: 80%;
+		display: flex;
+		justify-content: center;
+		border: 10px solid black;
+	}
+	p {
+		color: black;
+		font-size: 100px;	
+		margin-left: 2%;
+		animation: roll 3s infinite;
+		transform: rotate(25deg);
+	}
+	@keyframes roll {
+	  0% {
+	    transform: rotate(0);
+	  }
+	  100% {
+	    transform: rotate(360deg);
+	  }
+	}
+	
+	</style>
+</head>
+<body>
+	<div class="wrapper">
+		<p class="element">O</p>
+		<p class="element">L</p>
+		<p class="element">O</p>
+		<p class="element">L</p>
+		<p class="element">O</p>
+	</div>
+</body>
+</html>
